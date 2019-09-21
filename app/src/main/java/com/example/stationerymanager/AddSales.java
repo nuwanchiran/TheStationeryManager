@@ -35,6 +35,16 @@ public class AddSales extends AppCompatActivity{
         myDb = new StationarySalesDatabaseHelper(this);
 
 
+<<<<<<< HEAD
+        Spinner spinner = findViewById(R.id.spinner1);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.combo_box1, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
+
+        tvDate = findViewById(R.id.tvDate);
+        etDate = findViewById(R.id.no_of_fax);
+=======
         etDate = findViewById(R.id.editText3);
         sCode = findViewById(R.id.SAfill10);
         sName = findViewById(R.id.SAfill20);
@@ -46,6 +56,7 @@ public class AddSales extends AppCompatActivity{
         AddData();
         viewAll();
 
+>>>>>>> 5680e1c60ba47dbe11e707cfe4bf9267c422837a
 
         Calendar calendar = Calendar.getInstance();
         final int year = calendar.get(Calendar.YEAR);
@@ -73,6 +84,11 @@ public class AddSales extends AppCompatActivity{
 
     }
 
+<<<<<<< HEAD
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+=======
     public void AddData(){
         addSalesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,6 +108,7 @@ public class AddSales extends AppCompatActivity{
                 }
             }
         });
+>>>>>>> 5680e1c60ba47dbe11e707cfe4bf9267c422837a
     }
 
     public void viewAll(){

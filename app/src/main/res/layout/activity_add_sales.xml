@@ -257,6 +257,22 @@ app:layout_constraintTop_toTopOf="parent"
 app:layout_constraintVertical_bias="0.093"
 tools:text="@string/SAtxt6" />
 
+<<<<<<< HEAD
+<EditText
+android:id="@+id/no_of_fax"
+android:layout_width="142dp"
+android:layout_height="38dp"
+android:layout_marginStart="8dp"
+android:layout_marginLeft="8dp"
+android:layout_marginEnd="8dp"
+android:layout_marginRight="8dp"
+app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+app:layout_constraintEnd_toStartOf="@+id/imageView8"
+app:layout_constraintHorizontal_bias="1.0"
+app:layout_constraintStart_toEndOf="@+id/tvDate"
+app:layout_constraintTop_toTopOf="@+id/tvDate"
+app:layout_constraintVertical_bias="0.0" />
+=======
     <EditText
         android:id="@+id/editText3"
         android:layout_width="146dp"
@@ -271,6 +287,7 @@ tools:text="@string/SAtxt6" />
         app:layout_constraintStart_toEndOf="@+id/tvDate"
         app:layout_constraintTop_toTopOf="@+id/tvDate"
         app:layout_constraintVertical_bias="1.0" />
+>>>>>>> 5680e1c60ba47dbe11e707cfe4bf9267c422837a
 
     <ImageView
         android:id="@+id/imageView8"
@@ -279,10 +296,18 @@ tools:text="@string/SAtxt6" />
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
 
+<<<<<<< HEAD
+app:layout_constraintBottom_toBottomOf="@+id/no_of_fax"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toTopOf="@+id/no_of_fax"
+app:layout_constraintVertical_bias="0.0"
+app:srcCompat="@drawable/ic_calender" />
+=======
         app:layout_constraintBottom_toBottomOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editText3"
         app:layout_constraintVertical_bias="0.857"
         app:srcCompat="@drawable/ic_calender" />
+>>>>>>> 5680e1c60ba47dbe11e707cfe4bf9267c422837a
 
 </androidx.constraintlayout.widget.ConstraintLayout>
